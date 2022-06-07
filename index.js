@@ -12,7 +12,7 @@ connectToMongo();           // Connecting to mongo
 
 // HOSTNAME AND PORT
 const hostname = '127.0.0.1';
-const port = 80;
+const port = process.env.PORT || 80;
 
 const app = express();      // STARTING THE EXPRESS SERVER
 

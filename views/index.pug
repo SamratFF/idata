@@ -1,11 +1,75 @@
-doctype html
-html(lang="en")
-  head
-    meta(charset="utf-8")
-    meta(http-equiv="X-UA-Compatible", content="IE=edge")
-    meta(name="viewport", content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0")
-    title Node.js with TailwindCSS, Express and Pug
-    link(href="./styles/style.css", rel="stylesheet")
-  body
-    h1.text-6xl Hello world!
-    p.m-64 My starter template!
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>iDATA - SAVE DATA TO MONGO USING EXPRESS WITH TAILWIND</title>
+
+  <link rel="stylesheet" href="./styles/style.css" />
+  <link rel="stylesheet" href="./styles/custom.css" />
+
+
+</head>
+
+<body class="bg-gray-200 bg-opacity-50 bgImage">
+  <header>
+    <nav class="bg-gray-800 p-4">
+      <ul class="text-white flex w-full relative">
+        <div class="mainLogo flex align-middle justify-items-center">
+          <li class="text-xl font-semibold list-none mx-2 logo flex mt-1"><a href="/"><img src="./img/tailwind-logo.png"></a>
+          </li>
+          <li class="text-[22px] font-semibold list-none mx-2 flex"><a href="/" class="text-[22px] font-semibold hover:text-[24px]">iDATA</a></li>
+        </div>
+        <div class="navigations absolute top-0 right-0 space-x-3 flex">
+          <li class="list-none text-[17px]"><a href="/" class="text-white fontSignikaNegative font-medium hover:underline">Home</a></li>
+          <li class="list-none text-[17px]"><a href="/" class="text-white fontSignikaNegative font-medium hover:underline">Services</a>
+          </li>
+          <li class="list-none text-[17px]"><a href="/" class="text-white fontSignikaNegative font-medium hover:underline">Products</a>
+          </li>
+          <li class="list-none text-[17px]"><a href="/" class="text-white fontSignikaNegative font-medium hover:underline">About</a>
+          </li>
+          <li class="list-none text-[17px]"><a href="/" class="text-white fontSignikaNegative font-medium hover:underline">Contact</a>
+          </li>
+        </div>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="">
+    <div class="form w-1/2 lg:w-4/6 sm:w-3/4 mx-auto my-12 bg-white border-gray-200 border-2 border-solid rounded-lg drop-shadow-2xl p-10">
+      <div class="">
+      <h1 class="text-center text-3xl fontSignikaNegative my-4">Enter your details</h1>
+
+      <hr>
+
+      <div class="mx-auto w-9/12">
+        <form action="/" method="post">
+          <div class="inputArea my-2">
+            <p class="text-base text-gray-600 font-semibold">Name</p>
+            <input type="text" name="name" placeholder="Eg: Jake" class="border-2 border-gray-200 border-opacity-75 w-full my-1 hover:border-gray-200 p-2 rounded-md drop-shadow-2xl text-base">
+          </div>
+
+          <div class="inputArea my-2 mt-3">
+            <p class="text-base text-gray-600 font-semibold">Email</p>
+            <input type="email" name="email" placeholder="Eg: jake@email.com" class="border-2 border-gray-200 border-opacity-75 w-full my-1 hover:border-gray-200 p-2 rounded-md drop-shadow-2xl text-base">
+          </div>
+
+          <div class="inputArea my-2 mt-3">
+            <p class="text-base text-gray-600 font-semibold">Password</p>
+            <input type="password" name="password" placeholder="Eg: jake7238_jake" class="border-2 border-gray-200 border-opacity-75 w-full my-1 hover:border-gray-200 p-2 rounded-md drop-shadow-2xl text-base">
+          </div>
+
+          <div class="my-3 ">
+            <button class="p-2 px-5 submitBTN text-base font-semibold text-white rounded-lg">Submit</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    </div>
+  </main>
+
+</body>
+
+</html>

@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300&display=swap');
+
+.logo img {
+     width: 35px;
+     height: 20px;
+}
+
+.fontRajdhani{
+     font-family: 'Rajdhani', sans-serif;
+}
+
+.fontSignikaNegative{
+     font-family: 'Signika Negative', sans-serif;
+}
+
+.submitBTN{
+     background-color: #3b97e7;
+}
+
+.bgImage{
+     background-image: url('../img/bg1.png');
+     background-size: cover;
+     background-repeat: no-repeat;
+}

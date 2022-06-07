@@ -1,0 +1,24 @@
+{
+  "name": "save-data-mongo-tailwind",
+  "version": "1.0.0",
+  "description": "Saving data to the mongo by using express js with tailwind.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tailwind:css": "postcss public/styles/tailwind.css -o public/styles/style.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^10.0.1",
+    "express": "^4.17.1",
+    "mongoose": "^6.3.5",
+    "postcss": "^8.1.2",
+    "postcss-cli": "^8.1.0",
+    "pug": "^3.0.0",
+    "tailwindcss": "^1.9.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
